@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2>Thrissur</h2>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="/pictures/thrissur/Vadakkumnathan_Temple-02012020130746.jpg" style="width:100%" class="center">
+  <div class="text">Vadakkumnathan_Temple</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="/pictures/thrissur/Shoba_City_Mall,_Thrissur,_Kerala_20190530041833.jpeg" style="width:50%" class="center">
+  <div class="text">Shobha city</div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="/pictures/thrissur/Kudamatom_at_thrissur_pooram_2013_7618.jfif" style="width:50%" class="center">
+  <div class="text">thrissur pooram</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="/pictures/thrissur/1499154216735-Vilangankunnu.jpg" style="width:50%" class="center">
+  <div class="text">Vilangankunnu</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="/pictures/thrissur/thrissur_indiarail_info-compressed.jpg" style="width:50%" class="center">
+  <div class="text">Railway station</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="/pictures/thrissur/5039.jpg" style="width:50%" class="center">
+  <div class="text">kerala kalamandalam</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<p>Thrissur, formerly Trichur, city, central Kerala state, southwestern India. The city is located 12 miles (19 km) inland from the Arabian Sea coast on an extensive lagoon system.
+    <br>
+    <br>
+    Thrissur, a commercial and cultural centre, is considered to be the oldest city on the west coast of India. Its name means “small sacred place.” The city is built around a hillock topped by the Vadakkumnathan Temple (dedicated to Shiva), the focus of an annual festival. A city of many faiths, Thrissur is also home to some of the oldest mosques and churches in the country. Its industries include cotton weaving, rice and oilseed milling, soap manufacturing, and sawmilling. The city is also a retail hub for the state of Kerala, and is home to some of the largest jewellery and textile businesses in the region. Thrissur has colleges affiliated with the University of Calicut, a museum, and zoological gardens. The city has good road and rail connections with the rest of Kerala and with the interior.
+<br>
+<br>
+Thrissur is one of the oldest cities in Kerala. The legend says, the city was the town created by Lord Parasurama (6th incarnation of Lord Vishnu) soon after formation of Kerala, by creating a large Shiva temple. The entire city is formed around the grand Shiva temple known as Vadakumnathan Temple. The city's original name was Thir-Shiva-Perur (Sacred city of Shiva), which got later shortened as Thrissur. The temple is in the center of a mega roundabout that is of 64 acres. This round is known as Swaraj Round and the giant square in front of the temple is known as Thekkinkad Maidan. All roads of Thrissur connect to this.
+
+Perhaps when Indians think of Thrissur, the first image would be the famous Thrissur Pooram festival, the most colourful and spectacular temple festival of Kerala. This is also known as largest temple festival in India. The festival is at the Vadakkumnathan temple grounds, in April or May. The city is equally famous for the final celebrations of the Onam festival, which is the national festival of Kerala. It hosts the famous Pulikali during Onam celebrations in August or September (depends on Malayalam calendar). Apart from festivals and culture, Thrissur is also well known as one of the best shopping centers in Kerala for silks and gold ornaments. The city is also known as Entrepreneurial City, due to presence of large number of entrepreneurs working in various trades.
+<br>
+<br>
+<h3>By air</h3> 
+<br>
+Kochi International Airport, is 58 km away from Thrissur City with direct flights from the Middle East, Singapore, Maldives, Europe and Sri Lanka. Kozhikode Airport is 80 km away from Thrissur City.
+
+Kozhikode International Airport located 80 Kms away as well as Coimbatore Airport located 115 Kms away are other nearby airports, offering international connectivity as well as domestic connections.
+<br>
+<h3>By train</h3>
+<br>
+Thrissur City is well connected and serviced by rail to all major cities in India. Thrissur Railway Station is an major railway head in South India. Daily trains are avaliable to leading cities like Mumbai, New Delhi, Kolkata, Bangalore, Chennai, Mangalore and Hyderabad and almost every part of India.
+
+Kerala's largest Railway Junction - Shornur Junction is just 33 Km away from the city and is considered as Rail Gateway of Kerala, where all trains from and to Kerala touches. Thrissur Railway Station is a major station in the Southern Railway network and all important trains stop here. Regular train services are there to Cochin and Palakkad are available from here. Thrissur also has a suburban station Punkunnam, but only local passenger trains and a few express trains stops here.
+<br>
+<h3>By bus</h3>
+<br>
+You can also get in to Thrissur City by bus from cities like Kochi, Kozhikode, Kannur, Thiruvananthapuram, Coimbatore, Mangalore, Bangalore, Chennai and Mumbai.
+
+Thrissur is well connected by NH 544, NH 47,NH 17 and NH 66 to other cities like Kochi, Kozhikode, Chennai, Bangalore, Coimbatore, Madurai and Pollachi by road.
+
+The 'Sakthan Thampuran' Bus Stand located at the Southern part of the city is the origin point of buses proceeding towards Palakkad.The 'Municipal Bus Stand' located at Round South caters to the local bus transport. From North bus stand, there are buses which goes to Shoranur and Palakkad. The bus station of the state owned Transport corporation (KSRTC) is located at Chettiyangadi and is quite close to the Railway Station.
+<br>
+<br>
+<h4>Get around</h4> 
+<br>
+Bus: Private bus service system and Government-run KSRTC is a good choice for travelling. .
+<br>
+Autorickshaw: Auto rickshaws are the main form of local transport, if you don't have your own means of transportation. Autorickshaws running in the city limits are to use fare meters, while the ones from the adjacent areas need not use them. However it is a rule that such autorickshaws without metres should not pick up passengers within city limits. There is a pre-paid auto rickshaw counter at Thrissur Railway Station.
+<br>
+Taxi: Local taxis are also available at cheap rates. Please note that there are no local Taxis (Yellow cabs or the one's having yellow roof and black body). The taxis known as 'Tourist taxis' are meant for long travel or one day trips.
+<br>
+Car: There are many car rental companies offering cars with drivers or self drive.
+<br>
+Bike: Bikes are available for rental in Thrissur City. This is available for a week or more than that.
+<br>
+Walk: Many places of attractions are near by each in the city limit other so you could walk between them.
+</p>
+</body>
+</html> 
